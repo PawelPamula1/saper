@@ -43,9 +43,9 @@ class Game extends UI {
   }
 
   #newGame(
-    rows = this.#config.easy.rows,
-    cols = this.#config.easy.cols,
-    mines = this.#config.easy.mines
+    rows = this.#config.expert.rows,
+    cols = this.#config.expert.cols,
+    mines = this.#config.expert.mines
   ) {
     this.#numberOfRows = rows;
     this.#numberOfCols = cols;
